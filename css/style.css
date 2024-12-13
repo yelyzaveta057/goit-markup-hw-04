@@ -285,14 +285,14 @@ gap: 24px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.team-li:hover{
-    transform: translateY(0%);
-     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .div-imgs{
     position: relative;
     overflow: hidden;
+}
+.our-team-list li:hover .team-p{
+transform: translateY(0%);
 }
 .team-p{
     position: absolute;
