@@ -157,6 +157,7 @@ padding: 24px 0;
     background-repeat: no-repeat;
    
 }
+
 .main-text{
 
     font-family: "Roboto", sans-serif;
@@ -292,9 +293,28 @@ gap: 24px;
      
     
 }
+.icon-link-team{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
+}
+.icon-list{
+    display: flex;
+    gap: 24px;
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-right: 16px;
+}
 .name-app{
     padding: 32px 16px
 }
+
 .our-team-list{
     display: flex;
     flex-wrap: wrap;
@@ -347,4 +367,15 @@ gap: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+.social-media{
+    font-weight: 500;
+    
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-top: 100px;
+margin-left: 540px;
+margin-bottom: 188px;
 }
