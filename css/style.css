@@ -151,7 +151,7 @@ padding: 24px 0;
     text-align: center;
     line-height: 1.07;
     padding: 188px 0;   
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/background-hero/people-office\ 1\ \(1\).jpg);
     max-width: 1440px; 
     background-repeat: no-repeat;
@@ -280,6 +280,24 @@ gap: 24px;
 .team-listli{
     row-gap: 48px; 
 }
+.team-li{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    
+}
+.team-li:hover{
+    
+}
+.div-imgs{
+    position: relative;
+    overflow: hidden;
+}
+.team-p{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
 .container-team{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -295,6 +313,10 @@ gap: 24px;
 }
 .img-thirdblock{
     background-color: #FFFFFF;
+    
+}
+.img-thirdblock:hover{
+    transform: translateY(0%);
 }
 .our-team{
     line-height: 1.5;
