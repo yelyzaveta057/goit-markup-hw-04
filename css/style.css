@@ -225,6 +225,9 @@ gap: 24px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
+.svg-icon{
+    color: #fff;
+}
 .content-list{
     width: calc((100% - 72px) / 4)
 
