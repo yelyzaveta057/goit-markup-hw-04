@@ -390,6 +390,15 @@ display: flex;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+.container-footer{
+    display: flex;
+    align-items: baseline
+}
+.div-a-p{
+    margin-right: 120px;
+    padding-left: 156px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
