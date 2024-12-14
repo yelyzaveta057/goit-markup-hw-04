@@ -428,6 +428,30 @@ display: flex;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.icon-list-footer{
+display: flex;
+gap: 16px;
+flex-shrink: 0;
+align-self: flex-end;
+margin-left: 16px;
+margin-top: 8px;
+margin-right: 16px;
+justify-content: center;
+
+}
+.icon-link-team-footer{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #404bbf;
+    }
+    .icon-link-team-footer:hover
+    .icon-link-team-footer:focus{
+    background-color:#31d0aa;
+}
 .social-media{
     font-weight: 500;
     
@@ -437,5 +461,5 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-top: 100px;
 margin-left: 540px;
-margin-bottom: 188px;
+margin-bottom: 16px; 
 }
