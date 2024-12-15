@@ -456,11 +456,11 @@ justify-content: center;
       background-color: #4d5ae5;
  
     }
-    .icon-list-footer:hover .icon-link-team-footer{
+    .icon-link-team-footer:hover {
         background-color:#31d0aa;
     }
 
-    .icon-list-footer:focus .icon-link-team-footer{
+    .icon-link-team-footer:focus {
     background-color:#31d0aa;
 }
 .social-media{
