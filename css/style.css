@@ -315,9 +315,7 @@ gap: 24px;
     border-top: none; 
    
 }
-.svg-icon{
-    fill:#f4f4fd ;
-}
+
 .our-team-posiotion{
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -440,6 +438,7 @@ margin-top: 8px;
 margin-right: 16px;
 justify-content: center;
 
+
 }
 .icon-link-team-footer{
     display: flex;
@@ -448,9 +447,13 @@ justify-content: center;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      background-color: #404bbf;
+      background-color: #4d5ae5;
+ 
     }
-    .icon-list-footer:hover .icon-link-team-footer,
+    .icon-list-footer:hover .icon-link-team-footer{
+        background-color:#31d0aa;
+    }
+
     .icon-list-footer:focus .icon-link-team-footer{
     background-color:#31d0aa;
 }
